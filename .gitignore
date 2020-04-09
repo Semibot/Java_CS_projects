@@ -1,3 +1,6 @@
+# Created by https://www.gitignore.io/api/java,netbeans
+# Edit at https://www.gitignore.io/?templates=java,netbeans
+
 ### Java ###
 # Compiled class file
 *.class
@@ -33,4 +36,4 @@ dist/
 nbdist/
 .nb-gradle/
 
-# End of https://www.gitignore.io/api/netbeans
+# End of https://www.gitignore.io/api/java,netbeans
