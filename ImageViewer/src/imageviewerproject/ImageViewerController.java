@@ -45,7 +45,7 @@ public class ImageViewerController implements Initializable{
         List<File> files = fileChooser.showOpenMultipleDialog(new Stage());
         
         if(!files.isEmpty()){
-            files.forEach((File f) ->{
+            files.forEach((File f)->{
                 filenames.add(f.getName());
                 images.add(new Image(f.toURI().toString()));
             });
